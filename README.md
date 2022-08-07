@@ -30,6 +30,10 @@ Entre na pasta que você acabou de clonar, e instale as dependencias
 ```
 npm install
 ```
+Será preciso subir a aplicação em um container Docer, para isso utiliza o seguinte comando:
+```
+docker-compose up -d
+```
 Agora basta importar os arquivos em algum cliente MySQL, neste projeto foi utilizado o MySQL WorkBench
 
 ## :iphone: Como funciona
